@@ -1,11 +1,12 @@
 import React from 'react'
-import HeroBanner from './Components/HeroBanner.jsx'
+import HeroBanner from './Components/HeroBanner/HeroBanner'
+import TextComponent from './Components/TextComponent/TextComponent'
 
 const App = () => {
   return (
     <>
-        <h1>Hello, React!</h1>
-        <HeroBanner />
+      <HeroBanner />
+      <TextComponent />
     </>
   )
 }
